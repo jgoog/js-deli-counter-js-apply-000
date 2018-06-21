@@ -2,7 +2,7 @@ var katzDeli =[];
 
 function takeANumber(katzDeliLine,Name) {
 
-   katzDeliLine.push(Name);  
+   katzDeliLine.push(Name);
    var placeInLine = katzDeliLine.length;
    var message = `Welcome, ${Name}. You are number ${placeInLine} in line.`
    return message
@@ -33,7 +33,7 @@ function currentLine(LineArray) {
 
      listarray.push(`${lineNo}. ${name}`);
 
-     
+
     }
     var message = listarray.join(', ');
     return `The line is currently: ${message}`;
